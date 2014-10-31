@@ -20,7 +20,7 @@
     ],
     "homepage": "https://github.com/e-piksel/countdown",
     "docs": "https://github.com/e-piksel/countdown",
-    "demo": "http://free.e-piksel.com/countdown-clock",
+    "demo": "http://e-piksel.github.io/countdown/demo",
     "dependencies": {
         "jquery": ">=1.7"
     }
