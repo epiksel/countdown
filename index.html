@@ -1,33 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Countdown by e-piksel</title>
+    <meta name="description" content="Countdown : jQuery CountDown Clock - Simple countdown plugin for product special offers">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Countdown</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Countdown</h1>
-        <p>jQuery CountDown Clock - Simple countdown plugin for product special offers</p>
 
-        <p class="view"><a href="https://github.com/e-piksel/countdown">View the Project on GitHub <small>e-piksel/countdown</small></a></p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/e-piksel/countdown">View on GitHub</a>
 
+          <h1 id="project_title">Countdown</h1>
+          <h2 id="project_tagline">jQuery CountDown Clock - Simple countdown plugin for product special offers</h2>
 
-        <ul>
-          <li><a href="https://github.com/e-piksel/countdown/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/e-piksel/countdown/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/e-piksel/countdown">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/e-piksel/countdown/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/e-piksel/countdown/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>
 <a name="jquery-countdown-clock" class="anchor" href="#jquery-countdown-clock"><span class="octicon octicon-link"></span></a>jQuery Countdown Clock</h1>
 
@@ -38,7 +41,9 @@
 
 <div class="highlight highlight-JS"><pre><span class="nx">$</span><span class="p">(</span><span class="s1">'.countdown'</span><span class="p">).</span><span class="nx">countdown</span><span class="p">({</span>
     <span class="nx">date</span><span class="o">:</span> <span class="s1">'07/27/2015 17:00:00'</span><span class="p">,</span>
-    <span class="nx">offset</span><span class="o">:</span> <span class="o">+</span><span class="mi">2</span>
+    <span class="nx">offset</span><span class="o">:</span> <span class="o">+</span><span class="mi">2</span><span class="p">,</span>
+    <span class="nx">day</span><span class="o">:</span> <span class="s1">'Day'</span><span class="p">,</span>
+    <span class="nx">days</span><span class="o">:</span> <span class="s1">'Days'</span>
 <span class="p">},</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
     <span class="nx">alert</span><span class="p">(</span><span class="s1">'Done!'</span><span class="p">);</span>
 <span class="p">});</span>
@@ -64,17 +69,54 @@
 <td>offset</td>
 <td>UTC Timezone offset</td>
 </tr>
+<tr>
+<td>day</td>
+<td>a Day text</td>
+</tr>
+<tr>
+<td>days</td>
+<td>an Days text</td>
+</tr>
+<tr>
+<td>hour</td>
+<td>a Hour text</td>
+</tr>
+<tr>
+<td>hours</td>
+<td>an Hours text</td>
+</tr>
+<tr>
+<td>minute</td>
+<td>a Minute text</td>
+</tr>
+<tr>
+<td>minutes</td>
+<td>an Minutes text</td>
+</tr>
+<tr>
+<td>second</td>
+<td>a Seccond text</td>
+</tr>
+<tr>
+<td>seconds</td>
+<td>an Seconds text</td>
+</tr>
 </tbody>
 </table>
 
 <p>You can also append a callback function which is called when countdown finishes.</p>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/e-piksel">e-piksel</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Countdown maintained by <a href="https://github.com/e-piksel">e-piksel</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
