@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+body {
+	background: #363f48;
+	color: white;
+	font: normal 12px 'Open Sans', sans-serif;
+	margin-top: 20px;
+}
+
+ul#buttons {
+	list-style: none;
+	text-align: center;
+	margin-top: 40px;
+}
+ul#buttons li {
+	display: inline-block;
+}
+ul#buttons li + li {
+	margin-left: 20px;
+}
+a {
+	color: #76949F;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.source {
+	width: 405px;
+	margin: 0 auto;
+	background: #4f5861;
+	color: #a7abb1;
+	font-weight: bold;
+	display: block;
+	white-space: pre;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.btn {
+	margin: 40px auto;
+	padding: 12px;
+	width: 100px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.btn:hover {
+	text-decoration: none;
+	opacity: .7;
+}
+.btn.download {
+	background: url('http://e-piksel.github.io/countdown/images/icon_download.png') #0090ff no-repeat 95% 50%;
+	padding-right: 34px;
+}
+.btn.forkme {
+	background: url('http://e-piksel.github.io/countdown/images/blacktocat.png') #f56c4c no-repeat 95% 50%;
+	padding-right: 40px;
+}
