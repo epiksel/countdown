@@ -15,11 +15,11 @@
     "licenses": [
         {
             "type": "GNU GPL v2",
-            "url": "https://github.com/e-piksel/countdown/blob/master/LICENSE"
+            "url": "https://github.com/epiksel/countdown/blob/master/LICENSE"
         }
     ],
-    "homepage": "https://github.com/e-piksel/countdown",
-    "docs": "https://github.com/e-piksel/countdown",
+    "homepage": "https://github.com/epiksel/countdown",
+    "docs": "https://github.com/epiksel/countdown",
     "demo": "http://e-piksel.github.io/countdown/demo",
     "dependencies": {
         "jquery": ">=1.7"

@@ -1,4 +1,4 @@
-/* CountDown Clock v1.0.0.0 - https://github.com/e-piksel/countdown */
+/* CountDown Clock v1.0.0 - https://github.com/epiksel/countdown */
 (function ($) {
 	$.fn.countdown = function (options, callback) {
 		var settings = $.extend({
