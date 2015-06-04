@@ -54,10 +54,10 @@ a:hover {
 	opacity: .7;
 }
 .btn.download {
-	background: url('http://e-piksel.github.io/countdown/images/icon_download.png') #0090ff no-repeat 95% 50%;
+	background: url('http://epiksel.github.io/countdown/images/icon_download.png') #0090ff no-repeat 95% 50%;
 	padding-right: 34px;
 }
 .btn.forkme {
-	background: url('http://e-piksel.github.io/countdown/images/blacktocat.png') #f56c4c no-repeat 95% 50%;
+	background: url('http://epiksel.github.io/countdown/images/blacktocat.png') #f56c4c no-repeat 95% 50%;
 	padding-right: 40px;
 }

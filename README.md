@@ -3,7 +3,7 @@ jQuery Countdown Clock
 
 jQuery countdown plugin that accounts for timezone.
 
-[DEMO PAGE] (http://e-piksel.github.io/countdown/demo)
+[DEMO PAGE] (http://epiksel.github.io/countdown/demo)
 
 #Usage
 

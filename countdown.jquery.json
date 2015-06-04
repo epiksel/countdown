@@ -20,7 +20,7 @@
     ],
     "homepage": "https://github.com/epiksel/countdown",
     "docs": "https://github.com/epiksel/countdown",
-    "demo": "http://e-piksel.github.io/countdown/demo",
+    "demo": "http://epiksel.github.io/countdown/demo",
     "dependencies": {
         "jquery": ">=1.7"
     }
