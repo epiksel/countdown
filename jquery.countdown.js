@@ -44,7 +44,7 @@
 			var utc = date.getTime() + (date.getTimezoneOffset() * 60000);
 
 			// set new Date object
-			var new_date = new Date(utc + (3600000*settings.offset))
+			var new_date = new Date(utc + (3600000*settings.offset));
 
 			return new_date;
 		};
@@ -103,7 +103,7 @@
 			container.find('.hours_text').text(text_hours);
 			container.find('.minutes_text').text(text_minutes);
 			container.find('.seconds_text').text(text_seconds);
-		};
+		}
 		
 		// start
 		var interval = setInterval(countdown, 1000);
