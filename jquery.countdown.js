@@ -80,18 +80,18 @@
 				hours = Math.floor((difference % _day) / _hour),
 				minutes = Math.floor((difference % _hour) / _minute),
 				seconds = Math.floor((difference % _minute) / _second);
+		
+			// based on the date change the refrence wording
+			var text_days = (days === 1) ? settings.day : settings.days,
+				text_hours = (hours === 1) ? settings.hour : settings.hours,
+				text_minutes = (minutes === 1) ? settings.minute : settings.minutes,
+				text_seconds = (seconds === 1) ? settings.second : settings.seconds;
 
 				// fix dates so that it will show two digets
 				days = (String(days).length >= 2) ? days : '0' + days;
 				hours = (String(hours).length >= 2) ? hours : '0' + hours;
 				minutes = (String(minutes).length >= 2) ? minutes : '0' + minutes;
 				seconds = (String(seconds).length >= 2) ? seconds : '0' + seconds;
-
-			// based on the date change the refrence wording
-			var text_days = (days === 1) ? settings.day : settings.days,
-				text_hours = (hours === 1) ? settings.hour : settings.hours,
-				text_minutes = (minutes === 1) ? settings.minute : settings.minutes,
-				text_seconds = (seconds === 1) ? settings.second : settings.seconds;
 
 			// set to DOM
 			container.find('.days').text(days);
