@@ -20,8 +20,15 @@
 	</ul>
 
 	<script class="source" type="text/javascript">
+		var now = new Date();
+		var day = now.getDate();
+		var month = now.getMonth();
+		var year = now.getFullYear() + 1;
+
+		var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+
 		$('#example').countdown({
-			date: '07/27/2017 17:00:00',
+			date: nextyear, //TODO Date format: 07/27/2017 17:00:00
 			offset: +2,
 			day: 'Day',
 			days: 'Days'
