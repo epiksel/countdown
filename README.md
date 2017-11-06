@@ -3,11 +3,11 @@ jQuery Countdown Clock
 
 jQuery countdown plugin that accounts for timezone.
 
-[DEMO PAGE] (http://epiksel.github.io/countdown/demo)
+[DEMO PAGE](http://epiksel.github.io/countdown/demo)
 
-#Usage
+# Usage
 
-```JS
+```javascript
 $('.countdown').countdown({
     date: '07/27/2015 17:00:00',
     offset: +2,
@@ -18,7 +18,7 @@ $('.countdown').countdown({
 });
 ```
 
-#Options
+# Options
 Option | Description
 ---|---
 date | Target date, ex `07/27/2015 17:00:00`
