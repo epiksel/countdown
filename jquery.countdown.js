@@ -1,7 +1,7 @@
 // CountDown Clock
 // Version   : 1.0.1
 // Developer : Ekrem KAYA
-// Website   : http://e-piksel.com
+// Website   : https://e-piksel.com
 // GitHub    : https://github.com/epiksel/countdown
 
 (function ($) {
@@ -80,7 +80,7 @@
 				hours = Math.floor((difference % _day) / _hour),
 				minutes = Math.floor((difference % _hour) / _minute),
 				seconds = Math.floor((difference % _minute) / _second);
-		
+
 			// based on the date change the refrence wording
 			var text_days = (days === 1) ? settings.day : settings.days,
 				text_hours = (hours === 1) ? settings.hour : settings.hours,
@@ -104,7 +104,7 @@
 			container.find('.minutes_text').text(text_minutes);
 			container.find('.seconds_text').text(text_seconds);
 		}
-		
+
 		// start
 		var interval = setInterval(countdown, 1000);
 	};
