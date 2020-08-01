@@ -16,7 +16,8 @@
 			minute: 'Minute',
 			minutes: 'Minutes',
 			second: 'Second',
-			seconds: 'Seconds'
+			seconds: 'Seconds',
+			hideOnComplete: false
 		}, options);
 
 		// Throw error if date is not set
@@ -64,7 +65,10 @@
 				// stop timer
 				clearInterval(interval);
 
-				if (callback && typeof callback === 'function') callback();
+				if(settings.hideOnComplete){
+					$(container).hide();
+				}
+				if (callback && typeof callback === 'function') callback(container);
 
 				return;
 			}
