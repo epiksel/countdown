@@ -31,5 +31,6 @@ minute | a Minute text
 minutes | an Minutes text
 second | a Seccond text
 seconds | an Seconds text
+hideOnComplete | hide container when countdown is 0 (Default=false)
 
 You can also append a callback function which is called when countdown finishes.
