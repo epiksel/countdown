@@ -11,9 +11,10 @@ jQuery countdown plugin that accounts for timezone.
 $('.countdown').countdown({
     date: '07/27/2015 17:00:00',
     offset: +2,
-	day: 'Day',
-	days: 'Days'
-}, function () {
+    day: 'Day',
+    days: 'Days',
+    hideOnComplete: true
+}, function (container) {
     alert('Done!');
 });
 ```
