@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>jQuery Countdown Clock Plugin</title>
-	<link type="text/css" href="demo.css?v=1.0.0" rel="stylesheet">
+	<link type="text/css" href="demo.css" rel="stylesheet">
 	<link type="text/css" href="https://rawgit.com/epiksel/countdown/master/jquery.countdown.css" rel="stylesheet">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://rawgit.com/epiksel/countdown/master/jquery.countdown.min.js"></script>
@@ -31,8 +31,9 @@
 			date: nextyear, // TODO Date format: 07/27/2017 17:00:00
 			offset: +2, // TODO Your Timezone Offset
 			day: 'Day',
-			days: 'Days'
-		}, function () {
+			days: 'Days',
+			hideOnComplete: true
+		}, function(container) {
 			alert('Done!');
 		});
 	</script>

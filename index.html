@@ -44,70 +44,73 @@
     <span class="nx">date</span><span class="o">:</span> <span class="s1">'07/27/2015 17:00:00'</span><span class="p">,</span>
     <span class="nx">offset</span><span class="o">:</span> <span class="o">+</span><span class="mi">2</span><span class="p">,</span>
     <span class="nx">day</span><span class="o">:</span> <span class="s1">'Day'</span><span class="p">,</span>
-    <span class="nx">days</span><span class="o">:</span> <span class="s1">'Days'</span>
-<span class="p">},</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="nx">days</span><span class="o">:</span> <span class="s1">'Days'</span><span class="p">,</span>
+    <span class="nx">hideOnComplete</span><span class="o">:</span> <span class="s1">true</span>
+<span class="p">},</span> <span class="kd">function</span> <span class="p">(container)</span> <span class="p">{</span>
     <span class="nx">alert</span><span class="p">(</span><span class="s1">'Done!'</span><span class="p">);</span>
 <span class="p">});</span>
 </pre></div>
 
-<h1>
-<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h1>
+    <h1><a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h1>
 
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>date</td>
-<td>Target date, ex <code>07/27/2015 17:00:00</code>
-</td>
-</tr>
-<tr>
-<td>offset</td>
-<td>UTC Timezone offset</td>
-</tr>
-<tr>
-<td>day</td>
-<td>a Day text</td>
-</tr>
-<tr>
-<td>days</td>
-<td>an Days text</td>
-</tr>
-<tr>
-<td>hour</td>
-<td>a Hour text</td>
-</tr>
-<tr>
-<td>hours</td>
-<td>an Hours text</td>
-</tr>
-<tr>
-<td>minute</td>
-<td>a Minute text</td>
-</tr>
-<tr>
-<td>minutes</td>
-<td>an Minutes text</td>
-</tr>
-<tr>
-<td>second</td>
-<td>a Seccond text</td>
-</tr>
-<tr>
-<td>seconds</td>
-<td>an Seconds text</td>
-</tr>
-</tbody>
-</table>
+    <table>
+      <thead>
+          <tr>
+              <th>Option</th>
+              <th>Description</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>date</td>
+              <td>Target date, ex <code>07/27/2015 17:00:00</code></td>
+          </tr>
+          <tr>
+              <td>offset</td>
+              <td>UTC Timezone offset</td>
+          </tr>
+          <tr>
+              <td>day</td>
+              <td>a Day text</td>
+          </tr>
+          <tr>
+              <td>days</td>
+              <td>an Days text</td>
+          </tr>
+          <tr>
+              <td>hour</td>
+              <td>a Hour text</td>
+          </tr>
+          <tr>
+              <td>hours</td>
+              <td>an Hours text</td>
+          </tr>
+          <tr>
+              <td>minute</td>
+              <td>a Minute text</td>
+          </tr>
+          <tr>
+              <td>minutes</td>
+              <td>an Minutes text</td>
+          </tr>
+          <tr>
+              <td>second</td>
+              <td>a Seccond text</td>
+          </tr>
+          <tr>
+              <td>seconds</td>
+              <td>an Seconds text</td>
+          </tr>
+          <tr>
+              <td>hideOnComplete</td>
+              <td>hide container when countdown is 0 (Default=false) </td>
+          </tr>
+      </tbody>
+  </table>
 
-<p>You can also append a callback function which is called when countdown finishes.</p>
-      </section>
-    </div>
+  <p>You can also append a callback function which is called when countdown finishes.</p>
+</section>
+</div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
@@ -116,8 +119,5 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-
-
   </body>
 </html>
