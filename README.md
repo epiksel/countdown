@@ -1,6 +1,7 @@
-TronLink Wallet Address
-=========
-**TRX - BTC - BTT - USDT**: TH9RyofE7WiDDVVFLMJgFns2ByBRmgQzNB
+## Donate
+**(BTC)**: 1Cw2TguwNdSVHmjQDkAc6wmv1FNnwy1ru9
+
+**(TRX - USDT)**: TH9RyofE7WiDDVVFLMJgFns2ByBRmgQzNB
 
 jQuery Countdown Clock
 =========
